@@ -43,7 +43,7 @@ Job-Journey/<br>
 ├── images/<br>
 ├── js/<br>
 ├── login/<br>
-|── CONTRIBUTING.md/<br>
+ |── CONTRIBUTING.md/<br>
 ├── index.html<br>
 └── README.md<br>
 
