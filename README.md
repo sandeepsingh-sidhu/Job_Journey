@@ -37,15 +37,15 @@
 ---
 
 ###📌 Folder Structure
-Job-Journey/
-├── css/
-├── html/
-├── images/
-├── js/
-├── login/
-|── CONTRIBUTING.md/
-├── index.html
-└── README.md
+Job-Journey/<br>
+├── css/<br>
+├── html/<br>
+├── images/<br>
+├── js/<br>
+├── login/<br>
+|── CONTRIBUTING.md/<br>
+├── index.html<br>
+└── README.md<br>
 
 ##🤝 Contributing
 We welcome contributions to make Job Journey better! Please read the CONTRIBUTING.md for more information.
