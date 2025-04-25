@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: montserrat;
+    background-image: linear-gradient(to bottom right, #ffa6e5 0%, #3631c5 36%, #3631c5 66%, #ffa6e5 100%);
+    overflow-x: hidden;
+    color: #333;
+}
+
+body.dark-mode {
+    background-image: linear-gradient(to bottom right, #121212 0%, #3631c5 36%, #3631c5 66%, #121212 100%);
+    color: #fff;
+}
+
+nav {
+    background: black;
+    height: 80px;
+    width: 100%;
+}
+
+#kr {
+    margin-left: 1387px;
+}
+
+#cont1 {
+    font-size: 1.3rem;
+}
+
+.search {
+    background: white;
+    border-radius: 10px;
+    position: relative;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+input {
+    flex: 1;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    font-size: 13px;
+}
+
+button {
+    background: transparent;
+    border: 0;
+    outline: 0;
+}
+
+button .fa-solid {
+    width: 25px;
+    color: #555;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+::placeholder {
+    color: #555;
+}
+
+.result-box {
+    max-height: 300px;
+    width: 250px;
+    overflow-y: scroll;
+    background: white;
+    position: absolute;
+    right: 0;
+    z-index: 10;
+    border: 1px solid #ccc;
+}
+
+.result-box ul {
+    border-top: 1px solid #999;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.result-box ul li {
+    display: block;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.result-box ul li:hover {
+    background: #e9f3ff;
+}
+
+.Logo {
+    color: white;
+    font-size: 3rem;
+    padding: 0 100px;
+    font-weight: bold;
+    position: relative;
+    top: 19px;
+    left: -78px;
+    font-size: 37px;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+    margin-top: 24px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 30px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(219, 195, 195);
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    color: white;
+}
+
+.container {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    border: 2px white;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+#cont2 {
+    border: 1px solid black;
+    width: 40%;
+    height: 300px;
+}
+
+#cont2 iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.marq {
+    margin-top: 50px;
+    height: 160px;
+    border: 1px white;
+}
+
+#img1 {
+    padding-bottom: 123px;
+    height: 140px;
+}
+
+#img2 {
+    padding-bottom: 128px;
+    margin-top: 27px;
+    bottom: 16px;
+    height: 140px;
+    padding-left: 66px;
+}
+
+#img3 {
+    padding-left: 66px;
+    padding-bottom: 126px;
+    height: 140px;
+}
+
+#img4 {
+    padding-bottom: 124px;
+    padding-left: 66px;
+    height: 140px;
+}
+
+#img5 {
+    padding-bottom: 122px;
+    padding-left: 66px;
+    height: 140px;
+}
+
+#pin {
+    margin-top: -70px;
+}
+
+#pin img {
+    height: 455px;
+    width: 505px;
+    padding-top: 107px;
+    padding-bottom: 48px;
+    padding-left: 3px;
+}
+
+.flex {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    border: 2px white;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+#con2 {
+    color: white;
+    text-align: center;
+}
+
+.mark {
+    padding-top: 20px;
+    color: white;
+    background-color: black;
+    height: 40px;
+    margin-top: -17px;
+}
+
+.hed {
+    font-size: 2.8rem;
+    margin-top: 116px;
+}
+
+.para {
+    font-size: 1.3rem;
+}
+
+.foot {
+    margin-right: 50px;
+    margin-bottom: 30px;
+}
+
+.foot img {
+    width: 30px;
+}
+
+#link {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+#clock {
+    font-size: 1.2rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 5px 10px;
+    border-radius: 10px;
+    position: absolute;
+    top: 40px;
+    left: 10px;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+#clock span {
+    font-size: 1.5rem;
+    margin: 0 5px;
+}
+
+#clock span#heading2,
+#clock span#heading3,
+#clock span#heading4 {
+    font-weight: bold;
+}
+
+.theme-toggle-btn {
+    position: top right;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.theme-toggle-btn:hover {
+    background-color: #ffa6e5;
+}

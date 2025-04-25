@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Job Journey</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FEE Project</title>
+    <link rel="icon" href="images/logo1.png">
+    <link rel="stylesheet" href="css/index.css">
+    
+</head>
+<body>
+     <header>
+        <nav>
+            <label class="Logo">JOB JOURNEY</label>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="html/platforms.html">Platform</a></li>
+                <li><a href="html/sign up.html">Sign Up</a></li>
+                <li><a href="html/contact.html">Contact</a></li>
+                <li><a class="active" href="html/about.html">About</a></li>
+                <li> <button class="theme-toggle-btn" onclick="toggleTheme()">🎨</button>
+                </li>
+                    <div class="search">
+                        <div class="row">
+                            <input type="text" id="input-box" placeholder="Search anything" autocomplete="off">
+                            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                        </div>
+                        <div class="result-box"></div>
+                    </div>
+                </li>
+            </ul>
+            <script src="js/autocomplete.js"></script>
+        </nav>
+        <script src="https://kit.fontawesome.com/d1ba48b2b8.js" crossorigin="anonymous"></script>
+    </header>
+
+    <div id="clock" style="text-align: center; font-size: 30px; margin-top: 50px;">
+        <span id="heading2">00</span>:<span id="heading3">00</span>:<span id="heading4">00</span>
+    </div>
+
+    <div>
+        <ul class="container">
+            <li class="cont" id="cont1">
+                <center><h1 style="position: relative;top: 85px;left: -41px;">OPTIMIZE YOUR<br>WORKFORCE WITH JOB JOURNEY</h1></center>
+                <center><p style="position: relative;top: 105px;left: -44px;">Power, Internal talent, mobility, and workforce agility<br>with job journey skills-based AI Talent Marketplace</p></center>
+            </li>
+            <li class="cont" id="cont2" style="position: relative;top: 24px;right: 44px;">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Y5hWlLoQ7Xc?si=1C_RMcVo3YMu-N17" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </li>
+        </ul>
+    </div>
+    
+    <marquee vspace="100" loop="unlimited" width="100%" class="marq" scrollamount="30" bgcolor="black">
+        <a href="https://www.google.com"><img src="https://freelogopng.com/images/all_img/1657952440google-logo-png-transparent.png" alt="google" class="1234" id="img1"></a>
+        <a href="https://www.apple.com"><img src="https://www.iconsdb.com/icons/preview/white/apple-xxl.png" alt="apple" class="12345" id="img2"></a>
+        <a href="https://www.facebook.com"><img src="https://cdn.pixabay.com/photo/2021/06/15/12/51/facebook-6338507_1280.png" alt="facebook" class="face" id="img3"></a>
+        <a href="https://www.youtube.com"><img src="https://cdn3.iconfinder.com/data/icons/social-network-30/512/social-06-1024.png" alt="youtube" id="img5"></a>
+        <a href="https://www.instagram.com"><img src="https://www.pngplay.com/wp-content/uploads/5/Instagram-Splash-Logo-PNG.png" alt="instagram" id="img4"></a>
+        <a href="https://www.amazon.in"><img src="https://freepnglogo.com/images/all_img/1715487998amazon-logo-transparent.png" alt="amazon" id="img5"></a>
+    </marquee>
+
+    <div style="background-color: linear-gradient(to bottom right, #ffa6e5 0%, #3631c5 36%, #3631c5 66%, #ffa6e5 100%);" id="pin">
+        <ul class="flex">
+            <li class="con" id="con1"><img src="https://hireconsulting.com/wp-content/uploads/2024/01/career_path.jpeg" height="100" width="200" alt=""></li>
+            <li class="con" id="con2">
+                <center><h1 class="hed">Power your skills-based<br>workforce for the future</h1></center>
+                <center><p class="para">World-leading pioneers of the internal mobility<br>market, JOB JOURNEY has proven to optimize best-in<br>-class organizations at scale globally.</p></center>
+                <center><p>JOB JOURNEY's AI engine matches your employees to internal career<br>opportunities, vacancies, learning, mentors, gigs, and projects<br>based on their skills, talents, and values, whilst giving HR powerful<br>workforce insights and data to drive strategic business decisions.</p></center>
+            </li>
+        </ul>
+    </div>
+
+    <footer id="footer" style="background-color: black;">
+        <marquee class="mark" scrollamount="29">&copy;Job Journey 2024</marquee><br>
+    </footer>
+
+    <script>
+        function hms() {
+            let time = new Date();
+            let hour = time.getHours();
+            let min = time.getMinutes();
+            let sec = time.getSeconds();
+            hour = hour < 10 ? '0' + hour : hour;
+            min = min < 10 ? '0' + min : min;
+            sec = sec < 10 ? '0' + sec : sec;
+            document.getElementById('heading2').innerHTML = hour;
+            document.getElementById('heading3').innerHTML = min;
+            document.getElementById('heading4').innerHTML = sec;
+        }
+        setInterval(hms, 1000);
+
+        function toggleTheme() {
+            document.body.classList.toggle('dark-mode');
+        }
+    </script>
+</body>
+</html>

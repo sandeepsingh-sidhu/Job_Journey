@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="icon" href="../images/logo1.png"> 
+    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <label class="Logo">JOB JOURNEY</label>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="platforms.html">Platform</a></li>
+            <li><a href="sign up.html">Sign Up</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li style="float:right"><a class="active" href="about.html">About</a></li>
+           
+        </ul>
+    </nav>
+    <section class="contact">
+        <div class="contact-form">
+            <h2>Get in Touch</h2>
+            <form method="POST" onsubmit="return handleSubmit()">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your Full Name" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your Email Address" required>
+                <label for="message">Message</label><br>
+                <textarea id="message" name="message" rows="4" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+        <div class="contact-info">
+            <h2>Contact Information</h2>
+            <address>
+                <p><strong>Sandeep Singh Sidhu (Student):</strong> <a href="tel:+919501735439">9501735439</a></p>
+                <p><strong>Shubham Sharma (Student):</strong> <a href="tel:+91935454547">9354545457</a></p>
+                <p><strong>University:</strong> Chitkara University, Rajpura, Punjab, India</p>
+                <p><strong>Student Email:</strong> <a href="mailto:sandeep1511.becse24@chitkara.edu.in">sandeep1511.becse24@chitkara.edu.in</a>, <a href="mailto:shubham1532.becse24@chitkara.edu.in">shubham1532.becse24@chitkara.edu.in</a></p>
+                <p><strong>Course:</strong> Computer Science and Engineering</p>
+                <p><strong>University Address:</strong> Chitkara University, Chandigarh Patiala Highway, Rajpura, Punjab - 140401, India</p>
+                <p><strong>Business Hours:</strong> Monday - Friday: 9 AM to 6 PM</p>
+            </address>
+            <div class="social-links">
+                <p>Follow us on social media:</p>
+                <a href="https://www.facebook.com/ChitkaraU/" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i> Facebook</a>
+                <a href="https://x.com/ChitkaraU" target="_blank" class="social-icon"><i class="fab fa-x-twitter"></i> X (Twitter)</a>
+                <a href="https://www.linkedin.com/school/chitkara-university/?originalSubdomain=in" target="_blank" class="social-icon"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+            </div>
+            <div class="map">
+                <p>Embed your location map here!</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Job Journey. All rights reserved.</p>
+        </div>
+    </footer>
+    <script>
+        function handleSubmit() {
+            alert("Thank you for reaching out! We will get back to you soon.");
+            window.location.href = "../index.html";
+            return false;
+        }
+    </script>
+</body>
+</html>

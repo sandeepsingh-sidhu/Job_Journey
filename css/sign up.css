@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to bottom right, #ffa6e5 0%, #3631c5 36%, #3631c5 66%, #ffa6e5 100%);
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background: black;
+    height: 80px;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.Logo {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+    font-size: 32px;
+}
+
+nav ul {
+    float: right;
+    list-style: none;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(219, 195, 195);
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 40px;
+    background-color: #ffb6c15c;
+    border-radius: 8px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    color: #3631c5;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.intro-text {
+    font-size: 1.2rem;
+    color: #3631c5;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: 600;
+    color: #333;
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+    letter-spacing: 1px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ccc;
+    border-radius: 25px;
+    font-size: 1.2rem;
+    margin-top: 5px;
+    transition: border 0.3s ease;
+}
+
+.form-group input:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #5700b3;
+}
+
+footer {
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+}
+
+.mark {
+    font-size: 14px;
+    color: white;
+    background-color: black;
+    padding: 10px;
+}

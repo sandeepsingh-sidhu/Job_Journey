@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - Job Journey</title>
+    <link rel="icon" href="../images/logo1.png"> 
+    <link rel="stylesheet" href="../css/sign up.css">
+</head>
+<nav>
+    <label class="Logo">JOB JOURNEY</label>
+    <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="platforms.html">Platform</a></li>
+        <li><a href="sign up.html">Sign Up</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li style="float:right"><a class="active" href="about.html">About</a></li>
+    </ul>
+</nav>
+<body>
+    <script> 
+        function validateEmail() {
+            const email = document.getElementById("email").value;
+            const emailRegex = /^[a-zA-Z0-9._%+-]+@gmail\.com$/;
+            if (!email.match(emailRegex)) {
+                alert("Please enter a valid Gmail address.");
+                return false;
+            }
+            return true;
+        }
+
+        function hey() {
+            alert("Thank you for submitting");
+            window.location.href = "../index.html";
+            return false;
+        }
+    </script>
+    <div class="container">
+        <h2>Create Your Account</h2>
+        <p class="intro-text">Sign up to get started with Job Journey. Join the platform to explore job opportunities, track your progress, and more!</p>
+        <form method="post" onsubmit="return validateEmail() && hey()">
+            <div class="form-group">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Create Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <label for="confirm-password">Confirm Password:</label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+            </div>
+            <div class="form-group">
+                <input type="checkbox" id="terms" name="terms" required>
+                <label for="terms">I agree to the <a href="terms.html">Terms of Service</a> and <a href="privacy.html">Privacy Policy</a>.</label>
+            </div>
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
+</body>
+<footer>
+    <marquee class="mark" scrollamount="29">&copy; Job Journey 2024. All rights reserved.</marquee>
+</footer>
+</html>

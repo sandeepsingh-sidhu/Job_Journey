@@ -1,0 +1,135 @@
+*{
+    font-family: montserrat;
+}
+nav{
+    background: black;
+    height: 80px;
+    width: 100%;
+}
+
+#cont1{
+    font-size: 1.3rem;
+}
+
+.Logo{
+    color: white;
+    font-size: 3rem;
+    padding: 0 100px;
+    font-weight: bold;
+    position: relative;
+    top: 19px;
+    left: -78px;
+    font-size: 37px;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+    margin-top: 24px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 30px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color:  rgb(219, 195, 195);
+    font-size: 17px;
+    text-transform: uppercase;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to bottom right, #ffa6e5 0%, #3631c5 36%, #3631c5 66%, #ffa6e5 100%);
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+    overflow-x: hidden;
+}
+#facebook-size{
+    font-size: 61px;
+    color: rgb(0, 136, 255);
+}
+
+
+h1 {
+    margin: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.job-listing {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+    background-image: linear-gradient( to bottom right, #ffa6e5 0%, #3631c5 36%, #3631c5 66%, #ffa6e5 100% );
+    
+}
+
+.job-listing:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.job-title {
+    font-size: 20px;
+    color: black;
+    margin: 0;
+}
+nav ul li a:hover{
+    color: white;
+}
+
+.company-name {
+    font-size: 45px;
+    color: #e80909;
+    position: relative;
+    top: -20px;
+    left: 490px;
+    transition-property:transform ;
+    transition-duration: 0.5s;
+    transition-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+.company-name:hover{
+    transform: scale(1.07) ;
+}
+
+.company-description {
+    margin-top: 10px;
+    font-size: 16px;
+    color: black;
+}
+
+footer {
+    background-color: 
+black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.bod {
+    background-image: linear-gradient( to bottom right, rgb(245, 245, 245, 0.45),rgb(245, 245, 245, 0.5)) ;  
+    padding: 12px 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.marq {
+    background-color: black;
+    height: 40px;
+    padding-top: 10px;
+    color: white;
+}
+
+ul li a:hover {
+    color: aliceblue;
+}

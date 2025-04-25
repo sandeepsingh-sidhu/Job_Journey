@@ -1,0 +1,117 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to bottom right, #ffa6e5 0%, #3631c5 36%, #3631c5 66%, #ffa6e5 100%);
+    font-family: Arial, sans-serif;
+    color: BLACK;
+}
+
+nav {
+    background: black;
+    height: 80px;
+    width: 100%;
+}
+
+.Logo {
+    color: white;
+    font-size: 2.5rem;
+    padding: 0 100px;
+    font-weight: bold;
+    position: relative;
+    top: 19px;
+    left: -78px;
+    font-size: 37px;
+}
+
+nav ul li a:hover {
+    color: white;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+    margin-top: 24px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 30px;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(219, 195, 195);
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: rgba(245, 245, 245, 0.85);
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+ul li {
+    font-size: 1rem;
+    color: #555;
+    margin: 10px 0;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.mark {
+    font-size: 1rem;
+}
