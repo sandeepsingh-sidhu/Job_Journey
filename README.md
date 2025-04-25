@@ -1,5 +1,11 @@
 # 🚀 Job Journey
 
+## 🌐 Live Demo
+
+> Coming soon... or add your deployed link here!
+
+---
+
 ![Job Journey Banner](images/banner.png)
 
 **Job Journey** is a modern frontend platform designed to help individuals discover job opportunities and gain insights into job-providing platforms, particularly in the tech industry. Whether you're a fresh graduate or an experienced developer, Job Journey guides you through available opportunities in the evolving digital job landscape.
@@ -27,12 +33,6 @@
 - **HTML5** – Semantic and structured content
 - **CSS3 / SCSS** – Responsive and modern styling
 - **JavaScript / TypeScript** – Interactive and dynamic behavior
-
----
-
-## 🌐 Live Demo
-
-> Coming soon... or add your deployed link here!
 
 ---
 
