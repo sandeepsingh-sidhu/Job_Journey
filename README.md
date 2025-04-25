@@ -2,7 +2,7 @@
 
 ## 🌐 Live Demo
 
-> Coming soon... or add your deployed link here!
+> [Click here to view my website!](https://sandeepsingh-sidhu.github.io/Job_Journey/)
 
 ---
 
