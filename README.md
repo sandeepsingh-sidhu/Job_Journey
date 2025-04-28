@@ -48,4 +48,4 @@
 └── **README.md**<br>
 
 ## **🤝 Contributing**<br>
-We welcome contributions to make Job Journey better! Please read the **CONTRIBUTING.md** for more information.
+We welcome contributions to make Job Journey better!🪄✨ Please read the **CONTRIBUTING.md** for more information.
