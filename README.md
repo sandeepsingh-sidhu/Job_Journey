@@ -10,7 +10,7 @@
 
 **Job Journey** is a modern frontend platform designed to help individuals discover job opportunities and gain insights into job-providing platforms, particularly in the tech industry. Whether you're a fresh graduate or an experienced developer, Job Journey guides you through available opportunities in the evolving digital job landscape.
 
----
+----
 
 ## 🌟 Features
 
