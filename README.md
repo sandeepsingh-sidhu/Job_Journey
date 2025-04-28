@@ -47,5 +47,5 @@
 ├── **index.html**<br>
 └── **README.md**<br>
 
-## **🤝 Contributing**<br>
+## **🤝Contributing**<br>
 We welcome contributions to make Job Journey better! Please read the **CONTRIBUTING.md** for more information.
