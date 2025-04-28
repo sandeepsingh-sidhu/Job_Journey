@@ -30,9 +30,9 @@
 
 ## 🛠️ Built With
 
-- **HTML5** – Semantic and structured content
-- **CSS3 / SCSS** – Responsive and modern styling
-- **JavaScript / TypeScript** – Interactive and dynamic behavior
+- **HTML5** – Semantic and structured content<br>
+- **CSS3 / SCSS** – Responsive and modern styling<br>
+- **JavaScript / TypeScript** – Interactive and dynamic behavior<br>
 
 ---
 
